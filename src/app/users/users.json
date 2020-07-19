@@ -1,0 +1,22 @@
+[
+    {
+        "username": "shariq.shahzad" ,
+        "password": "xyz1234" ,
+        "active": true
+    },
+    {
+        "username": "waqas.siddiqui" ,
+        "password": "abc1234" , 
+        "active" : false
+    },
+    {
+        "username": "marib.sultan" ,
+        "password": "def1234" ,
+        "active": false
+    },
+    {
+        "username": "khizar.naeem" ,
+        "password": "ghi1234" ,
+        "active": false
+    }
+]

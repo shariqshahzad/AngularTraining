@@ -1,0 +1,16 @@
+<table>
+    <tr>
+      <th>Username</th>
+      <th>Password</th>
+      <th>Active</th>
+      <th>Action</th>
+    </tr>
+    <tr *ngFor="let user of users">
+      <td>{{user.username}}</td>
+      <td>{{user.password}}</td>
+      <td>{{user.active}}</td>
+      <td>
+          <button (click)="onClickView(user)" >view</button>
+      </td>
+    </tr>
+  </table>

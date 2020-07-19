@@ -10,6 +10,9 @@ import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { SignupFormComponent } from './components/signup-form/signup-form.component';
 import { StudentsComponent } from './components/students/students.component';
 import { FormWithValidationComponent } from './components/form-with-validation/form-with-validation.component';
+import { LoginComponent } from './components/login/login.component';
+import { UsersComponent } from './components/users/users.component';
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { FormWithValidationComponent } from './components/form-with-validation/f
     SideNavComponent,
     SignupFormComponent,
     StudentsComponent,
-    FormWithValidationComponent
+    FormWithValidationComponent,
+    LoginComponent,
+    UsersComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
