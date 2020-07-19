@@ -1,6 +1,4 @@
-export class UserModel
-{
-    username : string;
-    password : string;
-    active : boolean;
+export class UserModel {
+    email: string;
+    password: string;
 }

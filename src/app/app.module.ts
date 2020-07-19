@@ -13,7 +13,8 @@ import { FormWithValidationComponent } from './components/form-with-validation/f
 import { LoginComponent } from './components/login/login.component';
 import { UsersComponent } from './components/users/users.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
-
+import { RegisterComponent } from './components/register/register.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,13 +27,15 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
     FormWithValidationComponent,
     LoginComponent,
     UsersComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
