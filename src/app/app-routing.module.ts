@@ -4,6 +4,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { LoginComponent } from './components/login/login.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
 import { RegisterComponent } from './components/register/register.component';
+import { UsersComponent } from './components/users/users.component';
 
 
 const routes: Routes =
@@ -13,6 +14,9 @@ const routes: Routes =
     },
     {
       path: 'dashboard', component: DashboardComponent
+    },
+    {
+      path: 'users', component: UsersComponent
     },
     {
       path : 'login' , component : LoginComponent

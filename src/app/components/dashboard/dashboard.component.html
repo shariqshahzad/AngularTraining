@@ -1,5 +1,6 @@
-<h1>
-    Dashboard
-</h1>
-<app-users></app-users>
+<app-users (onSelectUser)="setSelectedUsers($event)" ></app-users>
+
+<div *ngFor="let user of selectedUsers">
+    {{user.username}}
+</div>
 
